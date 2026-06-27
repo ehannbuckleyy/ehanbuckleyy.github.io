@@ -797,10 +797,10 @@ footer p {
     header { padding: 28px 16px 22px; }
     header h1 { font-size: 1.5rem; }
     header p { font-size: 0.82rem; }
-    nav { top: 12px; padding: 4px; max-width: calc(100% - 20px); border-radius: 12px; flex-wrap: wrap; justify-content: space-between; }
-    .nav-links { order: 1; width: 100%; justify-content: center; flex-wrap: wrap; }
-    .nav-links li a { padding: 8px 12px; font-size: 0.75rem; border-radius: 8px; }
-    .dark-toggle { padding: 6px 10px; font-size: 0.9rem; margin-left: auto; }
+    nav { top: 12px; padding: 6px 10px; max-width: calc(100% - 20px); border-radius: 14px; flex-wrap: wrap; justify-content: center; gap: 2px; }
+    .nav-links { justify-content: center; flex-wrap: wrap; gap: 2px; }
+    .nav-links li a { padding: 8px 14px; font-size: 0.78rem; border-radius: 8px; }
+    .dark-toggle { padding: 6px 10px; font-size: 0.9rem; }
     .hero { flex-direction: column; text-align: center; gap: 40px; padding: 40px 6% 50px; min-height: auto; }
     .hero::before, .hero::after { width: 300px; height: 300px; }
     .profile-img { width: 200px; height: 200px; }
@@ -834,8 +834,9 @@ footer p {
     header { padding: 22px 12px 18px; }
     header h1 { font-size: 1.3rem; }
     header p { font-size: 0.76rem; }
-    nav { top: 8px; padding: 4px; max-width: calc(100% - 12px); }
-    .nav-links li a { padding: 7px 10px; font-size: 0.7rem; }
+    nav { top: 8px; padding: 5px 8px; max-width: calc(100% - 12px); border-radius: 12px; gap: 2px; }
+    .nav-links { gap: 1px; }
+    .nav-links li a { padding: 7px 10px; font-size: 0.7rem; border-radius: 6px; }
     .dark-toggle { padding: 5px 8px; font-size: 0.82rem; }
     .profile-img { width: 160px; height: 160px; animation: float 5s ease-in-out infinite; }
     .hero { padding: 30px 5% 40px; gap: 30px; }
