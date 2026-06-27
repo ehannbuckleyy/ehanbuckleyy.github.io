@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Reihan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Reihan Septian</h1>
+        <p>Mahasiswa Teknologi Komputer Politeknik Pajajaran</p>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="darkToggle" class="dark-toggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </nav>
+
+    <section class="hero" id="home">
+        <img src="FOTOPROFIL1.jpeg" alt="Foto Profil" class="profile-img">
+        <div class="hero-text">
+            <span class="subtitle">Hardware • Networking • Web Development</span>
+            <h2 class="nowrap">Halo, Saya <span>Reihan Septian</span></h2>
+            <p>Mengubah rasa ingin tahu menjadi solusi teknologi yang bermanfaat.
+Mahasiswa Teknologi Komputer Politeknik pajajaran yang memiliki minat pada
+hardware komputer, jaringan, dan teknologi, serta terus
+mengembangkan kemampuan di bidang hardware dan software.</p>
+            <div class="hero-badges">
+                <span>Hardware</span>
+                <span>Networking</span>
+                <span>Python</span>
+                <span>Web Development</span>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/ehannbuckleyy" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/rhnsptn" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="CV_Reihan_Septian.pdf" download class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section id="about" class="hidden">
+        <h2>About Me</h2>
+        
+        <div class="about">
+            <p>Saya adalah mahasiswa Teknologi Komputer Politeknik Pajajaran yang memiliki minat pada hardware komputer, jaringan, dan teknologi informasi. Saya senang mempelajari cara kerja sistem komputer mulai dari perakitan, pemeliharaan, hingga troubleshooting perangkat keras.</p>
+
+            <p>Selain hardware, saya juga memiliki ketertarikan pada pengembangan website, database, dan pemrograman Python. Saya percaya bahwa pemahaman hardware dan software yang seimbang dapat menghasilkan solusi teknologi yang lebih efektif.</p>
+
+            <p>Saat ini saya terus mengembangkan kemampuan teknis dan non-teknis melalui berbagai proyek dan pembelajaran mandiri. Saya bercita-cita berkarier di bidang teknologi komputer dengan fokus pada hardware, jaringan, dan infrastruktur sistem.</p>
+        </div>
+
+    </section>
+
+    <section id="skills" class="hidden">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>🖥️ Hardware</h3>
+                <ul>
+                    <li>Computer Assembly</li>
+                    <li>Troubleshooting</li>
+                    <li>Hardware Diagnostics</li>
+                    <li>System Maintenance</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>🌐 Networking</h3>
+                <ul>
+                    <li>Network Configuration</li>
+                    <li>IP Addressing</li>
+                    <li>Cisco Packet Tracer</li>
+                    <li>Network Troubleshooting</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>💻 Software</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>🛠️ Tools</h3>
+                <ul>
+                    <li>Windows</li>
+                    <li>Linux</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                    <li>Microsoft Office</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="hidden">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="card">
+                <h3>💻 Portfolio Website</h3>
+                <p>Membangun website portfolio responsif menggunakan HTML, CSS, dan JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>🐍 Python Cashier App</h3>
+                <p>Aplikasi kasir sederhana dengan fitur transaksi, diskon, dan laporan harian.</p>
+            </div>
+            <div class="card">
+                <h3>🗄️ SQL Database Project</h3>
+                <p>Perancangan database dan implementasi query SQL untuk pengelolaan data.</p>
+            </div>
+            <div class="card">
+                <h3>🖥️ Hardware Documentation</h3>
+                <p>Dokumentasi instalasi, upgrade, dan troubleshooting perangkat keras komputer.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <a href="https://wa.me/6282115374839" target="_blank" class="contact-item">
+                <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                <span class="contact-label">WhatsApp</span>
+                <span class="contact-value">0821 1537 4839</span>
+            </a>
+            <a href="https://github.com/ehannbuckleyy" target="_blank" class="contact-item">
+                <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">@ehannbuckleyy</span>
+            </a>
+            <a href="https://instagram.com/rhnsptn" target="_blank" class="contact-item">
+                <span class="contact-icon"><i class="fa-brands fa-instagram"></i></span>
+                <span class="contact-label">Instagram</span>
+                <span class="contact-value">@rhnsptn</span>
+            </a>
+            <a href="https://t.me/buckleyress" target="_blank" class="contact-item">
+                <span class="contact-icon"><i class="fa-brands fa-telegram"></i></span>
+                <span class="contact-label">Telegram</span>
+                <span class="contact-value">@buckleyress</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Developed by Reihan Septian</p>
+        <p>&copy; 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
